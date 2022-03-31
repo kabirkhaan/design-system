@@ -33,7 +33,7 @@ function getStyleDictionaryConfig(brand, platform) {
         }]
       },
       "ios": {
-        "transformGroup": "ios",
+        "transformGroup": "ios-swift-separate",
         "buildPath": `build/ios/${brand}/`,
         "files": [{
           "destination": "Atoms.swift",
