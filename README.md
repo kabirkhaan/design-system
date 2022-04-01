@@ -55,6 +55,7 @@
 - [ ] Define all token w.r.t sixt
 - [ ] Fix iOS template
 - [ ] Sync with Android do they need compose as well
+- [ ] [Figma to Json](https://github.com/divriots/style-dictionary-to-figma)
 
 ## Multi Brand & Multi Platform
 
@@ -75,7 +76,7 @@ At this point, if you want to build the tokens you can run `npm run build`. This
 The "build" command will run the custom script `build.js`. This script loops on all the possible combinations of "platform" (web, iOS, Android) and "brand" ("brand-1", "brand-2" and "brand-3" in the example):
 
 ```
-['brand-1', 'brand-2', 'brand-3'].map(function (brand) {
+['arval', 'bmw', 'sixt'].map(function (brand) {
   ['web', 'ios', 'android'].map(function (platform) {
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, platform));
     StyleDictionary.buildPlatform(platform);
