@@ -46,7 +46,8 @@
 
 <img src="readme-resources/deep-merge.png"/>
 
-[Reference](https://dbanksdesign.github.io/style-dictionary-presentation/#/15)
+[Reference 1](https://dbanksdesign.github.io/style-dictionary-presentation/#/15)
+[Reference 2](https://dbanks.design/blog/dark-mode-with-style-dictionary/)
 
 
 ### TODOs
@@ -54,7 +55,6 @@
 - [ ] Define all token w.r.t sixt
 - [ ] Fix iOS template
 - [ ] Sync with Android do they need compose as well
-- [ ] Do we ned 
 
 ## Multi Brand & Multi Platform
 
