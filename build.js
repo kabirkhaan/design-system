@@ -24,22 +24,55 @@ function getStyleDictionaryConfig(brand, platform) {
         "files": [{
           "destination": "tokens.colors.xml",
           "format": "android/colors"
-        },{
+        }, {
           "destination": "tokens.dimens.xml",
           "format": "android/dimens"
-        },{
+        }, {
           "destination": "tokens.font_dimens.xml",
           "format": "android/fontDimens"
         }]
       },
-      "ios": {
+      "styleguide": {
+        "transformGroup": "styleguide",
+        "buildPath": `build/styleguilde/${brand}/`,
+        "files": [
+          {
+            "destination": `${brand}.json`,
+            "format": "json/flat"
+          },
+          {
+            "destination": `${brand}.scss`,
+            "format": "scss/variables"
+          }
+        ]
+      },
+      "ios":  {
         "transformGroup": "ios-swift-separate",
         "buildPath": `build/ios/${brand}/`,
-        "files": [{
-          "destination": "Atoms.swift",
-          "format": "ios-swift/enum.swift"
-        }]
-      }
+        "files": [
+          {
+            "destination": "Color.swift",
+            "format": "ios-swift/enum.swift",
+            "className": "Color",
+            "filter": {
+              "attributes": {
+                "category": "color"
+              }
+            }
+          },
+          {
+            "destination": "Size.swift",
+            "format": "ios-swift/enum.swift",
+            "className": "Size",
+            "type": "float",
+            "filter": {
+              "attributes": {
+                "category": "size"
+              }
+            }
+          },
+        ]
+      },
     }
   };
 }

@@ -2,7 +2,9 @@
   "color": {
     "brand": {
       "primary"   : { "value": "#3B5998" },
-      "secondary" : { "value": "#4267B2" }
+      "primary-dark"   : { "value": "#3B5998" },
+      "secondary" : { "value": "#4267B2" },
+      "secondary-dark" : { "value": "#4267B2" }
     }
   }
 }
