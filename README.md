@@ -51,10 +51,8 @@
 
 
 ### TODOs
-
-- [ ] Define all token w.r.t sixt
-- [ ] Fix iOS template
-- [ ] Sync with Android do they need compose as well
+- [ ] Support Light and Dark mode
+- [ ] Sync theme tokens
 - [ ] [Figma to Json](https://github.com/divriots/style-dictionary-to-figma)
 
 ## Multi Brand & Multi Platform
