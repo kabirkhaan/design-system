@@ -1,13 +1,15 @@
 {
-  "button": {
-    "border": {
-      "radius": {
-        "value": "4px"
-      }
-    },
-    "text": {
-      "size": {
-        "value": "{size.font.medium.value}"
+  "component": {
+    "button": {
+      "border": {
+        "radius": {
+          "value": "4"
+        }
+      },
+      "text": {
+        "size": {
+          "value": "{size.font.medium.value}"
+        }
       }
     }
   }
