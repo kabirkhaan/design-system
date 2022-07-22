@@ -27,7 +27,9 @@ function getStyleDictionaryConfig(brand, platform) {
                },{
                   "destination": "tokens_strings.xml",
                   "format": "android/strings"
-                },{
+                },
+                // For Android Compose
+                {
                   "destination":"Color.kt",
                   "format": "compose/object",
                   "className":"Color",
@@ -67,7 +69,6 @@ function getStyleDictionaryConfig(brand, platform) {
               }
               ]
             },
-            
             "ios": {
                 "transformGroup": "ios-swift-separate",
                 "buildPath": `build/${brand}/ios/`,
@@ -77,7 +78,7 @@ function getStyleDictionaryConfig(brand, platform) {
                      "className":"Color",
                      "filter":{
                         "attributes":{
-                           "category":"font"
+                           "category":"color"
                         }
                      }
                   },{
