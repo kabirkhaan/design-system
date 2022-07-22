@@ -36,7 +36,7 @@ function getStyleDictionaryConfig(brand, platform) {
                   "className":"Color",
                   "filter":{
                      "attributes":{
-                        "category":"font"
+                        "category":"color"
                      }
                   }
                },{
